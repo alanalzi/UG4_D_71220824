@@ -1,6 +1,6 @@
-kalim = input("Masukan kalimat: ")
+kalim = str(input("Masukan kalimat: ")).split()
 def kajang(kalim):
-    kaka = kalim.split()
+    kaka = kalim
     kajang = ""
     for kata in kaka :
         if len(kata) > len(kajang):
